@@ -1,0 +1,28 @@
+view {
+  box-sizing: border-box;
+}
+.awardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.awardBox {
+  width: 250rpx;
+  background: yellowgreen;
+  text-align: center;
+  height: 250rpx;
+  line-height: 250rpx;
+  border: 1px solid #ccc;
+}
+.start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: red;
+}
+.cur {
+  background: yellow;
+}
