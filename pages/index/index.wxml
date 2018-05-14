@@ -1,16 +1,7 @@
 <view class="awardWrap">
     <view bindtap="start" class="start awardBox">开始抽奖</view>
 
-    <view class="awardBox {{selectIndex == item.siteNum ? 'cur' : ''}}" wx:for="{{awards}}">
+    <view class="awardBox {{currentIndex == item.siteNum ? 'cur' : ''}}" wx:for="{{awards}}">
         {{item.name}}
     </view>
-    <!-- <view data-ranking="1" class="awardBox cur">奖品</view>
-    <view data-ranking="2" class="awardBox">奖品</view>
-    <view data-ranking="3" class="awardBox">奖品</view>
-    <view data-ranking="8" class="awardBox">奖品</view>
-    <view data-ranking="0" class="awardBox">我是用来占位的</view>
-    <view data-ranking="4" class="awardBox">奖品</view>
-    <view data-ranking="7" class="awardBox">奖品</view>
-    <view data-ranking="6" class="awardBox">奖品</view>
-    <view data-ranking="5" class="awardBox">奖品</view> -->
 </view>
